@@ -9,7 +9,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 License: LGPL
-Group: System Environment/Libraries
+Group: System/Libraries
 URL: http://www.stoq.com.br/
 Source: stoqdrivers-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
