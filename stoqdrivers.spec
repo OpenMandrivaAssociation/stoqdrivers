@@ -19,7 +19,7 @@ BuildRequires: python-psycopg2
 BuildRequires: gazpacho
 BuildRequires: python-zope-interface
 BuildRequires: python-serial
-BuildRequires: libpython2.6-devel
+BuildRequires: libpython%{python_version}-devel
 BuildArch: noarch
 
 %description
