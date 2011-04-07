@@ -45,4 +45,4 @@ rm -rf %{buildroot}
 %{python_sitelib}/stoqdrivers
 %{_datadir}/locale/*/LC_MESSAGES/stoqdrivers.mo
 %{_datadir}/stoqdrivers/conf/*.ini
-/usr/lib/python2.6/site-packages/stoqdrivers-0.9.11-py2.6.egg-info
+/usr/lib/python%{python_version}/site-packages/stoqdrivers-0.9.11-py%{python_version}.egg-info
