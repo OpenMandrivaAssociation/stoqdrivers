@@ -13,11 +13,12 @@ Group: System/Libraries
 URL: http://www.stoq.com.br/
 Source: stoqdrivers-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-Requires: pygobject2 >= 2.8.0, python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
-Requires: python-abi = %(%{__python} -c "import sys; print sys.version[:3]")
+Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.27
 BuildRequires: python-psycopg2
 BuildRequires: gazpacho
+BuildRequires: python-zope-interface
+BuildRequires: python-serial
 BuildArch: noarch
 
 %description
