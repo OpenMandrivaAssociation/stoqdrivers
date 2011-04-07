@@ -14,12 +14,13 @@ URL: http://www.stoq.com.br/
 Source: stoqdrivers-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, pyserial >= 2.2, python-kiwi >= 1.9.27
+Requires: python-abi = %{python_version}
 BuildRequires: python-kiwi >= 1.9.27
 BuildRequires: python-psycopg2
 BuildRequires: gazpacho
 BuildRequires: python-zope-interface
 BuildRequires: python-serial
-BuildRequires: libpython%{python_version}-devel
+BuildRequires: libpython2.6-devel
 BuildArch: noarch
 
 %description
