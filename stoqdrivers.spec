@@ -2,7 +2,7 @@
 
 %define name stoqdrivers
 %define version 0.9.14
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Fiscal driver collection
 Name: %{name}
@@ -16,6 +16,7 @@ Source: stoqdrivers-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, python-serial >= 2.2, python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.28
+BuildRequires: python-zope-interface >= 3.0.1
 BuildArch: noarch
 
 %description
