@@ -17,6 +17,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires: python-zope-interface >= 3.0.1, python-serial >= 2.2, python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.28
 BuildRequires: python-zope-interface >= 3.0.1
+BuildRequires: python-serial >= 2.2
 BuildArch: noarch
 
 %description
