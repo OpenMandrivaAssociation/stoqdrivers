@@ -45,3 +45,12 @@ rm -rf %{buildroot}
 %{_datadir}/locale/*/LC_MESSAGES/stoqdrivers.mo
 %{_datadir}/stoqdrivers/conf/*.ini
 %{python_sitelib}/*.egg-info
+
+
+%changelog
+* Mon Aug 01 2011 Leonardo Coelho <leonardoc@mandriva.com> 1:0.9.14-2mdv2012.0
++ Revision: 692696
+- bump new version 0.9.14
+-first package version on mdv
+- Created package structure for stoqdrivers.
+
