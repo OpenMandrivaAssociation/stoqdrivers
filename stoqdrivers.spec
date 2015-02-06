@@ -2,7 +2,7 @@
 
 %define name stoqdrivers
 %define version 0.9.14
-%define release %mkrel 2
+%define release 3
 
 Summary: Fiscal driver collection
 Name: %{name}
