@@ -1,2 +1,4 @@
+removed_sources:
+  stoqdrivers-0.9.14.tar.gz: caf8ae3b073498cbe2e62e3a050cdd999590c2bb
 sources:
-  "stoqdrivers-0.9.14.tar.gz": caf8ae3b073498cbe2e62e3a050cdd999590c2bb
+  stoqdrivers-0.9.22.tar.gz: e72c511afc0c0c9b26d179aa73f496f70c0f76c3
