@@ -7,12 +7,12 @@ License: LGPL
 Group: System/Libraries
 URL: http://www.stoq.com.br/
 Source: stoqdrivers-%{version}.tar.gz
-Requires: python2-zope-interface >= 3.0.1
-Requires: python2-serial >= 2.2
+Requires: python-zope-interface >= 3.0.1
+Requires: python-serial >= 2.2
 Requires: python-kiwi >= 1.9.27
 BuildRequires: python-kiwi >= 1.9.28
-BuildRequires: python2-zope-interface >= 3.0.1
-BuildRequires: python2-serial >= 2.2
+BuildRequires: python-zope-interface >= 3.0.1
+BuildRequires: python-serial >= 2.2
 BuildArch: noarch
 
 %description
@@ -33,7 +33,7 @@ python2 setup.py install --root=%{buildroot}
 
 %files
 %doc AUTHORS ChangeLog COPYING NEWS README
-%{python2_sitelib}/stoqdrivers
+%{python_sitelib}/stoqdrivers
 %{_datadir}/locale/*/LC_MESSAGES/stoqdrivers.mo
 %{_datadir}/stoqdrivers/conf/*.ini
-%{python2_sitelib}/*.egg-info
+%{python_sitelib}/*.egg-info
