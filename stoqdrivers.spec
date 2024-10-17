@@ -5,7 +5,7 @@ Version: 1.0
 Release: 1
 License: LGPL
 Group: System/Libraries
-URL: http://www.stoq.com.br/
+URL: https://www.stoq.com.br/
 Source: stoqdrivers-%{version}.tar.gz
 Requires: python2-zope-interface >= 3.0.1
 Requires: python2-serial >= 2.2
